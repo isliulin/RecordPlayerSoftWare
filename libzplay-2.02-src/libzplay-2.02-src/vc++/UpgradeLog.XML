@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="libzplay">
+</Property><Property Name="解决方案文件" Value="F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay.sln">
+</Property><Property Name="用户选项文件" Value="F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay.suo">
+</Property><Property Name="Date" Value="2015年9月11日">
+</Property><Property Name="Time" Value="9:16">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="libzplay.sln" Description="文件已成功备份为 F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="libzplay.suo" Description="文件已成功备份为 F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay.suo.old">
+</Event><Event ErrorLevel="1" Project="SoundTouch" Source="..\decoders\soundtouch\source\SoundTouch\SoundTouch.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="SoundTouch" Source="..\decoders\soundtouch\source\SoundTouch\SoundTouch.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\soundtouch\source\SoundTouch\SoundTouch.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="SoundTouch" Source="..\decoders\soundtouch\source\SoundTouch\SoundTouch.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="SoundTouch" Source="..\decoders\soundtouch\source\SoundTouch\SoundTouch.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="example_static" Source="example_static\example_static.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="example_static" Source="example_static\example_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="example_static" Source="example_static\example_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\example_static\example_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="example_static" Source="example_static\example_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="example_static" Source="example_static\example_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="jpeglib" Source="..\decoders\jpeglib\jpeglib.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="jpeglib" Source="..\decoders\jpeglib\jpeglib.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\jpeglib\jpeglib.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="jpeglib" Source="..\decoders\jpeglib\jpeglib.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="jpeglib" Source="..\decoders\jpeglib\jpeglib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libFLAC_static" Source="..\decoders\libFLAC\libFLAC_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libFLAC_static" Source="..\decoders\libFLAC\libFLAC_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\libFLAC\libFLAC_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libFLAC_static" Source="..\decoders\libFLAC\libFLAC_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libFLAC_static" Source="..\decoders\libFLAC\libFLAC_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="liba52" Source="..\decoders\a52dec\vc++\liba52.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="liba52" Source="..\decoders\a52dec\vc++\liba52.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\a52dec\vc++\liba52.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="liba52" Source="..\decoders\a52dec\vc++\liba52.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="liba52" Source="..\decoders\a52dec\vc++\liba52.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libfaac" Source="..\decoders\faac\libfaac\libfaac.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libfaac" Source="..\decoders\faac\libfaac\libfaac.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\faac\libfaac\libfaac.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libfaac" Source="..\decoders\faac\libfaac\libfaac.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libfaac" Source="..\decoders\faac\libfaac\libfaac.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libfaad" Source="..\decoders\faad\libfaad\libfaad.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libfaad" Source="..\decoders\faad\libfaad\libfaad.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\faad\libfaad\libfaad.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libfaad" Source="..\decoders\faad\libfaad\libfaad.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libfaad" Source="..\decoders\faad\libfaad\libfaad.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libmad" Source="..\decoders\libmad\msvc++\libmad.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libmad" Source="..\decoders\libmad\msvc++\libmad.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\libmad\msvc++\libmad.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libmad" Source="..\decoders\libmad\msvc++\libmad.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libmad" Source="..\decoders\libmad\msvc++\libmad.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libmp3lame_vc6" Source="..\decoders\lame\libmp3lame\libmp3lame_vc6.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libmp3lame_vc6" Source="..\decoders\lame\libmp3lame\libmp3lame_vc6.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\lame\libmp3lame\libmp3lame_vc6.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libmp3lame_vc6" Source="..\decoders\lame\libmp3lame\libmp3lame_vc6.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libmp3lame_vc6" Source="..\decoders\lame\libmp3lame\libmp3lame_vc6.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libpng" Source="..\decoders\lpng\libpng\libpng.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libpng" Source="..\decoders\lpng\libpng\libpng.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\lpng\libpng\libpng.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libpng" Source="..\decoders\lpng\libpng\libpng.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libpng" Source="..\decoders\lpng\libpng\libpng.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libzplay_dynamic" Source="libzplay_dynamic\libzplay_dynamic.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libzplay_dynamic" Source="libzplay_dynamic\libzplay_dynamic.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libzplay_pf_dynamic" Source="libzplay_pf_dynamic\libzplay_pf_dynamic.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="libzplay_pf_dynamic" Source="libzplay_pf_dynamic\libzplay_pf_dynamic.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libzplay_pf_dynamic" Source="libzplay_pf_dynamic\libzplay_pf_dynamic.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay_pf_dynamic\libzplay_pf_dynamic.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libzplay_pf_dynamic" Source="libzplay_pf_dynamic\libzplay_pf_dynamic.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libzplay_pf_dynamic" Source="libzplay_pf_dynamic\libzplay_pf_dynamic.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libzplay_pf_static" Source="libzplay_pf_static\libzplay_pf_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libzplay_pf_static" Source="libzplay_pf_static\libzplay_pf_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay_pf_static\libzplay_pf_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libzplay_pf_static" Source="libzplay_pf_static\libzplay_pf_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libzplay_pf_static" Source="libzplay_pf_static\libzplay_pf_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libzplay_static" Source="libzplay_static\libzplay_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libzplay_static" Source="libzplay_static\libzplay_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\vc++\libzplay_static\libzplay_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libzplay_static" Source="libzplay_static\libzplay_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libzplay_static" Source="libzplay_static\libzplay_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="ogg_static" Source="..\decoders\libogg\win32\ogg_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="ogg_static" Source="..\decoders\libogg\win32\ogg_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\libogg\win32\ogg_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="ogg_static" Source="..\decoders\libogg\win32\ogg_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="ogg_static" Source="..\decoders\libogg\win32\ogg_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="vorbis_static" Source="..\decoders\libvorbis\win32\vorbis_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="vorbis_static" Source="..\decoders\libvorbis\win32\vorbis_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\libvorbis\win32\vorbis_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="vorbis_static" Source="..\decoders\libvorbis\win32\vorbis_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="vorbis_static" Source="..\decoders\libvorbis\win32\vorbis_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="vorbisenc_static" Source="..\decoders\libvorbis\win32\vorbisenc_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="vorbisenc_static" Source="..\decoders\libvorbis\win32\vorbisenc_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\libvorbis\win32\vorbisenc_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="vorbisenc_static" Source="..\decoders\libvorbis\win32\vorbisenc_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="vorbisenc_static" Source="..\decoders\libvorbis\win32\vorbisenc_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="vorbisfile_static" Source="..\decoders\libvorbis\win32\vorbisfile_static.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="vorbisfile_static" Source="..\decoders\libvorbis\win32\vorbisfile_static.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\libvorbis\win32\vorbisfile_static.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="vorbisfile_static" Source="..\decoders\libvorbis\win32\vorbisfile_static.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="vorbisfile_static" Source="..\decoders\libvorbis\win32\vorbisfile_static.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="zlib" Source="..\decoders\zlib\zlib.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="zlib" Source="..\decoders\zlib\zlib.vcproj" Description="已成功地将项目文件备份为“F:\工程项目\自学项目\libzplay-2.02-src\libzplay-2.02-src\decoders\zlib\zlib.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="zlib" Source="..\decoders\zlib\zlib.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="zlib" Source="..\decoders\zlib\zlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="libzplay.sln" Description="解决方案文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="" Source="libzplay.sln" Description="无需转换">
+</Event></UpgradeLog>

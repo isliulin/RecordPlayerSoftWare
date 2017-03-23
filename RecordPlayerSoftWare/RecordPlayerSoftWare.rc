@@ -1,0 +1,503 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\RecordPlayerSoftWare.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RecordPlayerSoftWare.ico"
+IDI_PLAY                ICON                    "res\\play.ico"
+IDI_PLAYPRESS           ICON                    "res\\playpress.ico"
+IDI_PlayBack            ICON                    "res\\PlayBack.ico"
+IDI_PlayBackPress       ICON                    "res\\PlayBackpress.ico"
+IDI_PlayNext            ICON                    "res\\PlayNext.ico"
+IDI_PlayNextPress       ICON                    "res\\PlayNextpress.ico"
+IDI_PAUSE               ICON                    "res\\pause.ico"
+IDI_PAUSEPRESS          ICON                    "res\\pausepress.ico"
+IDI_Sound               ICON                    "res\\Sound.ico"
+IDI_SoundMute           ICON                    "res\\SoundMute.ico"
+IDI_Setting             ICON                    "res\\Setting.ico"
+IDI_SettingPress        ICON                    "res\\settingpress.ico"
+IDI_Login               ICON                    "res\\Login.ico"
+IDI_LoginPress          ICON                    "res\\LoginPress.ico"
+IDI_DownLoad            ICON                    "res\\DownLoad.ico"
+IDI_DownLoadPress       ICON                    "res\\DownLoadPress.ico"
+IDI_Query               ICON                    "res\\Query.ico"
+IDI_QueryPress          ICON                    "res\\QueryPress.ico"
+IDI_DevIcon             ICON                    "res\\DevTree.ico"
+IDI_TunnelIcon          ICON                    "res\\recordtunnel.ico"
+IDI_MainPage            ICON                    "F:\\工程项目\\研发项目\\NAR-5081项目\\RecordPlayerSoftWare\\RecordPlayerSoftWare\\res\\MainPage.ico"
+IDI_MainPagePress       ICON                    "res\\MainPagePress.ico"
+IDI_Edit                ICON                    "res\\Edit.ico"
+IDI_AddDev              ICON                    "res\\AddDev.ico"
+IDI_DelDev              ICON                    "res\\DelDev.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 185, 138
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "录音主机PC管理软件信息"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,16,17,20,20
+    LTEXT           "录音主机PC管理软件，1.3 版",IDC_STATIC,44,17,114,8,SS_NOPREFIX
+    LTEXT           "V1.3(2016-12-08)",IDC_STATIC,44,29,114,8
+    DEFPUSHBUTTON   "确定",IDOK,47,115,47,16,WS_GROUP
+    GROUPBOX        "版本信息",IDC_STATIC,13,7,158,36
+    GROUPBOX        "修改密码",IDC_STATIC,14,47,156,60
+    LTEXT           "原密码",IDC_STATIC,54,57,30,10
+    EDITTEXT        IDC_NEWUSERNAME,90,55,41,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "新密码",IDC_STATIC,54,74,23,11
+    EDITTEXT        IDC_NEWPASSWORD,90,71,41,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "取消",IDC_BUTTON1,99,115,47,16
+    LTEXT           "确认密码",IDC_STATIC,54,88,29,12
+    EDITTEXT        IDC_NEWPASSWORD2,90,87,41,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_RECORDPLAYERSOFTWARE_DIALOG DIALOGEX 0, 0, 504, 349
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "录音主机PC管理软件"
+FONT 10, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_ShowRect,"Static",SS_BLACKRECT | NOT WS_VISIBLE,5,6,493,338
+END
+
+IDD_PlayerShowDlg DIALOGEX 0, 0, 515, 310
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_Device_Tree,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_TRACKSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,9,30,104,263,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_Device_List,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,116,30,374,219
+    PUSHBUTTON      "",IDC_AddDevBtn,9,295,19,13,BS_FLAT
+    PUSHBUTTON      "",IDC_DeleteDevBtn,37,295,19,13,BS_FLAT
+    GROUPBOX        "查询筛选",IDC_TimeSelectStatic,9,0,480,27
+    RTEXT           "录音起始日期",IDC_StartStatic,87,14,48,8
+    CONTROL         "",IDC_DATE_START,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,139,12,48,10
+    CONTROL         "",IDC_TIME_START,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,191,12,48,10
+    RTEXT           "录音结束日期",IDC_EndStatic,242,14,48,8
+    CONTROL         "",IDC_DATE_END,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,293,11,48,10
+    CONTROL         "",IDC_TIME_END,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,344,11,48,10
+    PUSHBUTTON      "",IDC_PlayBtn,250,269,29,29
+    GROUPBOX        "",IDC_PlayerStatic,115,248,376,46
+    PUSHBUTTON      "",IDC_PlayBackBtn,212,271,27,25
+    PUSHBUTTON      "",IDC_PlayNextBtn,291,271,27,25
+    PUSHBUTTON      "",IDC_SoundCtrlBtn,343,272,21,21
+    CONTROL         "",IDC_SoundVolume,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,361,277,59,14
+    CONTROL         "",IDC_PlayProGressBtn,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,119,255,313,12
+    LTEXT           "时间显示",IDC_PlayTimeShow,128,273,75,9,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_EditBtn,65,295,19,13,BS_FLAT,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_ShowVolSpectrum,"Static",SS_BLACKRECT | SS_NOTIFY | SS_REALSIZEIMAGE | NOT WS_VISIBLE,436,254,53,37,WS_EX_TRANSPARENT
+    LTEXT           "连接显示",IDC_ConnectText,219,299,153,9,NOT WS_VISIBLE
+    PUSHBUTTON      "查询",IDC_QueryBtn,399,10,38,11
+    PUSHBUTTON      "批量下载",IDC_BatchDownBtn,445,10,38,11
+    PUSHBUTTON      "",IDC_LoginBtn,93,295,19,13
+    LTEXT           "录音类型",IDC_STATIC,22,14,33,9
+    COMBOBOX        IDC_ComBo_RECORDTYPE,54,12,34,94,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DownLoadListShowDlg DIALOGEX 0, 0, 491, 285
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_DownLoadList,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,84,476,194
+    RTEXT           "录音起始日期",IDC_StartStatic,49,53,41,8
+    CONTROL         "",IDC_DATE_START,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,99,53,50,11
+    CONTROL         "",IDC_TIME_START,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,157,53,50,11
+    RTEXT           "录音结束日期",IDC_EndStatic,209,53,41,8
+    CONTROL         "",IDC_DATE_END,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,257,53,50,11
+    CONTROL         "",IDC_TIME_END,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,313,53,50,11
+    PUSHBUTTON      "查询录音",IDC_QueryRecordBtn,393,35,45,17
+    RTEXT           "设备",IDC_DevStatic,50,30,41,8
+    RTEXT           "录音通道",IDC_ChannelStatic,209,31,41,8
+    COMBOBOX        IDC_DevCombox,99,28,103,132,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ChannelCombox,257,28,50,107,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "查询条件",IDC_QueryStatic,41,12,330,62
+END
+
+IDD_QueryRecordDBDlg DIALOGEX 0, 0, 221, 110
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "录音数据库查询"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "查询",IDOK,45,85,50,18
+    PUSHBUTTON      "取消",IDCANCEL,122,85,50,18
+    LTEXT           "录音起止时间",IDC_STATIC,26,31,43,10
+    CONTROL         "",IDC_StartDate,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,70,28,57,15
+    CONTROL         "",IDC_StartTime,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,133,28,57,15
+    LTEXT           "录音截止时间",IDC_STATIC,26,48,41,11
+    CONTROL         "",IDC_EndDate,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,70,46,57,15
+    CONTROL         "",IDC_EndTime,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,133,46,57,15
+END
+
+IDD_SettingDlg DIALOGEX 0, 0, 255, 207
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,65,179,55,21
+    PUSHBUTTON      "取消",IDCANCEL,143,179,55,21
+    LTEXT           "文件存储路径:",IDC_STATIC,21,21,44,9
+    EDITTEXT        IDC_FileSavePath,65,18,151,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_FileOpenBtn,216,17,18,17
+    GROUPBOX        "服务器设置",IDC_STATIC,24,123,209,50
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,59,147,100,14
+    EDITTEXT        IDC_EDIT2,168,147,34,14,ES_AUTOHSCROLL
+    LTEXT           "IP地址",IDC_STATIC,94,134,22,12
+    LTEXT           "端口",IDC_STATIC,176,134,15,9
+END
+
+IDD_PlayerListShowDlg DIALOGEX 0, 0, 581, 189
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PlayerList,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,3,567,179
+END
+
+IDD_AddDevDlg DIALOGEX 0, 0, 179, 121
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "录音设备"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,32,100,50,14
+    PUSHBUTTON      "取消",IDCANCEL,104,100,50,14
+    LTEXT           "设备名称",IDC_STATIC,39,16,29,10
+    EDITTEXT        IDC_DevName,70,14,48,12,ES_AUTOHSCROLL
+    LTEXT           "设备ID",IDC_STATIC,45,34,23,12
+    EDITTEXT        IDC_DevID,70,34,48,12,ES_AUTOHSCROLL
+    LTEXT           "IP地址",IDC_STATIC,47,54,21,10
+    CONTROL         "",IDC_DevIP,"SysIPAddress32",WS_TABSTOP,70,54,78,12
+    LTEXT           "端口号",IDC_STATIC,46,77,22,9
+    EDITTEXT        IDC_DevPort,70,74,48,12,ES_AUTOHSCROLL
+END
+
+IDD_ShowTipInfoDlg DIALOGEX 0, 0, 173, 93
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量下载"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "取消",IDOK,61,60,49,17
+    LTEXT           "正在批量下载，请耐心等待",IDC_InfoText,46,31,84,11
+END
+
+IDD_LOGINDLG DIALOGEX 0, 0, 235, 167
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "登陆",IDC_LoginBtn,34,105,69,22
+    PUSHBUTTON      "取消",IDC_CancelBtn,135,105,69,22
+    EDITTEXT        IDC_UserNameEdit,84,35,93,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORDEDIT,84,60,93,16,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "长沙世邦通信技术有限公司"
+            VALUE "FileDescription", "IP网络高清录音播放软件"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "RecordPlayerSoftWare.exe"
+            VALUE "LegalCopyright", " (C) 长沙世邦通信技术有限公司。保留所有权利。"
+            VALUE "OriginalFilename", "RecordPlayerSoftWare.exe"
+            VALUE "ProductName", "IP网络高清录音播放软件"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_RECORDPLAYERSOFTWARE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 498
+        VERTGUIDE, 129
+        VERTGUIDE, 174
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 344
+        HORZGUIDE, 199
+    END
+
+    IDD_PlayerShowDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 508
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_DownLoadListShowDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 483
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_QueryRecordDBDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_SettingDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_PlayerListShowDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 574
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_AddDevDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_ShowTipInfoDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_LOGINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SMF
+//
+
+IDR_SMF                 SMF                     "res\\NAR5801.smf"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAY MENU 
+BEGIN
+    POPUP "Tray(&T)"
+    BEGIN
+        MENUITEM "显示窗口(&S)",                    ID_MENUITEM_TRAY_OPEN
+        MENUITEM "退出程序(&X)",                    ID_MENUITEM_TRAY_CLOSE
+    END
+END
+
+IDR_MENU_SHOW_DOWNLOAD_FILE MENU 
+BEGIN
+    POPUP "浏览列表"
+    BEGIN
+        MENUITEM "读入录音数据库",                     ID_LoadRecordDB
+        MENUITEM "下载录音文件",                      ID_DownLoadFile
+        MENUITEM "停止下载录音文件",                    ID_StopDownLoad
+        MENUITEM "查询录音文件",                      ID_QueryDownLoadFile
+        MENUITEM "删除下载文件",                      ID_DeleteDownLoad
+    END
+END
+
+IDR_MENU_DEV_TREE MENU 
+BEGIN
+    POPUP "设备信息编辑"
+    BEGIN
+        MENUITEM "添加设备",                        ID_AddDev
+        MENUITEM "删除设备",                        ID_DelDev
+        MENUITEM "编辑设备",                        ID_ModifyDev
+        MENUITEM "同步录音记录",                      ID_DownLoadRecordDB
+    END
+END
+
+IDR_MENU_DEV_LIST MENU 
+BEGIN
+    POPUP "列表操作"
+    BEGIN
+        MENUITEM "下载文件",                        ID_DownLoadFile
+        MENUITEM "播放文件",                        ID_PlayRecordFile
+        MENUITEM "批量下载",                        ID_DownLoadAllFile
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_VOL_OFF      BITMAP                  "res\\vol_off.bmp"
+IDB_BITMAP_VOL_ON       BITMAP                  "res\\vol_on.bmp"
+IDB_BITMAP_THUMB        BITMAP                  "res\\Thumb.bmp"
+IDB_BITMAP_ACTIVE       BITMAP                  "res\\BarActive.bmp"
+IDB_BITMAP_NORMAL       BITMAP                  "res\\BarBack.bmp"
+IDB_TICK                BITMAP                  "res\\tick.bmp"
+IDB_SmallDownLoad       BITMAP                  "res\\DownLoadSmall.bmp"
+IDB_PauseDownLoad       BITMAP                  "res\\DownLoadPauseSmall.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 RecordPlayerSoftWare(&A)..."
+    IDS_SETTINGDLG_FILEPATH_STR "请选择下载文件保存路径"
+    IDP_SOCKETS_INIT_FAILED "Windows 套接字初始化失败。"
+    IDS_LOGINDLG_STR1       "密码错误"
+    IDS_LOGINDLG_STR2       "用户名不存在"
+    IDS_ABOUTDLG_STR1       "两次输入的密码不同，请再次输入"
+    IDS_ABOUTDLG_STR2       "修改成功"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\RecordPlayerSoftWare.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
